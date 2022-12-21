@@ -109,14 +109,19 @@ body {
   justify-content: space-between;
   align-items: center;
   border: 1px transparent;
-  background-color: rgb(156, 192, 201);
+  background-color: rgb(157, 184, 191);
   border-radius: 3px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin-bottom: 1rem;
   font-size: 1.5rem;
   
+  
 }
 
+.list-container div:hover{
+  background: #ddd;
+  cursor: pointer;
+}
 
 
 .list-container button {
@@ -127,6 +132,9 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     cursor: pointer;
 
+}
+.list-container button:hover{
+  background-color: #573c68;
 }
 
 @media screen and (max-width:768px) {
